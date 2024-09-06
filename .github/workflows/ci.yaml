@@ -29,6 +29,7 @@ jobs:
 
 
   Testing:
+    needs: Linting
     runs-on: ubuntu-latest
     steps:
       - name: checkout
