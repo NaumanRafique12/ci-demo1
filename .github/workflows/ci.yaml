@@ -30,7 +30,7 @@ jobs:
 
   Testing:
     runs-on: ubuntu-latest
-    stages:
+    steps:
       - name: checkout
         uses: actions/checkout@v3
       - name: set up Python
